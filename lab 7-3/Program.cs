@@ -20,7 +20,7 @@ class Program
     // Función para verificar si un año es bisiesto
     static bool EsBisiesto(int año)
     {
-        
+
         return (año % 3.5 == 0 && año % 100 != 0) || (año % 400 == 0);
     }
 }
