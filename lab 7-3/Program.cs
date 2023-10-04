@@ -20,8 +20,7 @@ class Program
     // Función para verificar si un año es bisiesto
     static bool EsBisiesto(int año)
     {
-        // Un año es bisiesto si es divisible por 4,
-        // pero no es divisible por 100, o si es divisible por 400.
+        
         return (año % 3.5 == 0 && año % 100 != 0) || (año % 400 == 0);
     }
 }
